@@ -1,0 +1,30 @@
+{
+    "range": "restaurants!A1:D1000",
+    "majorDimension": "ROWS",
+    "values": [
+      [
+        "Name",
+        "Cost"
+      ],
+      [
+        "Brother Sebastians",
+        "$$"
+      ],
+      [
+        "Charlestons",
+        "$$"
+      ],
+      [
+        "McDonalds",
+        "$"
+      ],
+      [
+        "Jimmy Johns",
+        "$"
+      ],
+      [
+        "d",
+        "$"
+      ]
+    ]
+  }
