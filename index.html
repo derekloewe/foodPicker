@@ -38,6 +38,7 @@
     <div class="container">
         <h1 class="title">Food Picker</h1>
         <div id="results">
+            <div id="errorMessageBox"></div>
             <table class="table">
                 <thead>
                     <tr>
@@ -58,9 +59,16 @@
             <button class="button" id="buttonRandom">Random</button>
 
         </div>
-        <div id="RestaurantResults"></div>
-    </div>
+        <div id="results">
+            <table id="resultsList">
 
+            </table>
+        </div>
+    </div>
+    <div id="listingTable"></div>
+    <a href="javascript:prevPage()" id="btn_prev">Prev</a>
+    <a href="javascript:nextPage()" id="btn_next">Next</a>
+    page: <span id="page"></span>
 
 </body>
 

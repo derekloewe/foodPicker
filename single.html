@@ -30,25 +30,45 @@
                 </div>
             </li>
 
-            <li class="is-pulled-right"><a href="about.html">About</li>
-            <li class="is-pulled-right"><a href="help.html">Help</a></li>
+            <li class="float-right"><a href="about.html">About</a></li>
+            <li class="float-right"><a href="help.html">Help</a></li>
 
         </ul>
     </nav>
-    <h1 class="title">Food Picker Single Meals at Home</h1>
-    </ul>
-    <div class="container"></div>
-    <div id="results">
-        <table class="table">
-            <tr><td>Name</td><td id="costFilter">Type </td></tr>
-            <tr><td id="nameResult"> </td><td id="costResult"> </td></tr>
-        </table>
-        <!--Fix this, filting not correct-->
-        <button class="button" id="buttonRandom">Random</button>
+    <div class="container">
+        <h1 class="title">Meal Picker</h1>
+        <div id="results">
+            <div id="errorMessageBox"></div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <td>Name</td>
+                        <td id="typeFilter">Type </td>
+                        <td id="sideFilter">Side </td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="foodResult"> </td>
+                        <td id="typeResult"> </td>
+                        <td id="sideResult"> </td>
+                    </tr>
+                </tbody>
+            </table>
+            <!--Fix this, filting not correct-->
+            <button class="button" id="buttonRandom">Random</button>
 
+        </div>
+        <div id="results">
+            <table id="resultsList">
+
+            </table>
+        </div>
     </div>
-    <div id="RestaurantResults"></div>
-    </div>
+    <div id="listingTable"></div>
+    <a href="javascript:prevPage()" id="btn_prev">Prev</a>
+    <a href="javascript:nextPage()" id="btn_next">Next</a>
+    page: <span id="page"></span>
 
 </body>
 

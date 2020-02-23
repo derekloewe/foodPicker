@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Food Picker</title>
+    <script src='src/config.js'></script>
+    <script src="src/food.js"></script>
+    <!-- Compiled and minified CSS -->
+    <!--  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.3.0/milligram.css"
+        integrity="sha256-7LuOHbsBImoaCHWzjqQDLeGK9kq/rZZqIr6Gtkz0WzI=" crossorigin="anonymous" /> -->
+
+    <link rel="stylesheet" type="text/css" href="css/bulma.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Restaurants</a></li>
+            <li><a href="">Meal Planning<span class="caret"></span></a>
+                <div>
+                    <ul>
+                        <li><a href="single.html">Single</a></li>
+                        <li><a href="weekly.html">Weekly</a></li>
+                    </ul>
+                </div>
+            </li>
+
+            <li class="float-right"><a href="about.html">About</a></li>
+            <li class="float-right"><a href="help.html">Help</a></li>
+
+        </ul>
+    </nav>
+    <div class="container">
+        <h1 class="title">Meal Picker - Days</h1>
+        <div id="results">
+            <div id="errorMessageBox"></div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <td>Eat Out</td>
+                        <td>Food</td>
+                        <td id="typeFilter">Type </td>
+                        <td id="sideFilter">Side </td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="genMon"><input type="checkbox" id="Mon" name="Mon" ><label for="Mon">Monday</label></td>
+                        <td id="foodResultMon"> </td>
+                        <td id="typeResultMon"> </td>
+                        <td id="sideResultMon"> </td>
+                    </tr>
+                    <tr>
+                        <td id="genTue"><input type="checkbox" id="Tue" name="Tue"><label for="Tue">Tuesday</label></td>
+                        <td id="foodResultTue"> </td>
+                        <td id="typeResultTue"> </td>
+                        <td id="sideResultTue"> </td>
+                    </tr>
+                    <tr>
+                        <td id="genWed"><input type="checkbox" id="Wed" name="Wed"><label for="Wed">Wednesday</label></td>
+                        <td id="foodResultWed"> </td>
+                        <td id="typeResultWed"> </td>
+                        <td id="sideResultWed"> </td>
+                    </tr>
+                    <tr>
+                        <td id="genThu"><input type="checkbox" id="Thu" name="Thu"><label for="Thu">Thursday</label></td>
+                        <td id="foodResultThu"> </td>
+                        <td id="typeResultThu"> </td>
+                        <td id="sideResultThu"> </td>
+                    </tr>
+                    <tr>
+                        <td id="genFri"><input type="checkbox" id="Fri" name="Fri"><label for="Fri">Friday</label></td>
+                        <td id="foodResultFri"> </td>
+                        <td id="typeResultFri"> </td>
+                        <td id="sideResultFri"> </td>
+                    </tr>
+                    <tr>
+                        <td id="genSat"><input type="checkbox" id="Sat" name="Sat"><label for="Sat">Saturday</label></td>
+                        <td id="foodResultSat"> </td>
+                        <td id="typeResultSat"> </td>
+                        <td id="sideResultSat"> </td>
+                    </tr>
+                    <tr>
+                        <td id="genSun"><input type="checkbox" id="Sun" name="Sun"><label for="Sun">Sunday</label></td>
+                        <td id="foodResultSun"> </td>
+                        <td id="typeResultSun"> </td>
+                        <td id="sideResultSun"> </td>
+                    </tr>
+
+                </tbody>
+            </table>
+            <!--Fix this, filting not correct-->
+            <button class="button" id="buttonRandom">Random</button>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
