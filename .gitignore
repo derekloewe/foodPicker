@@ -1,6 +1,7 @@
 #gitignore for Food Picker
 config.js
 notes.txt
+test.js
 
 # Logs
 logs

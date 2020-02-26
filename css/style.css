@@ -1,5 +1,5 @@
 body {
-    background-color: #EBE8E4;
+    background-color: white;
     color: #222;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 300;
@@ -10,11 +10,11 @@ body {
 Menu
 */
 nav {
-    background-color: #fff;
-    border: 1px solid #dedede;
+    background-color: slategray;
+    border: 1px solid darkslategrey;
     border-radius: 4px;
     box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
-    color: #888;
+    color: white;
     display: block;
     margin: 8px 22px 8px 22px;
     overflow: hidden;
@@ -29,7 +29,7 @@ nav ul {
 nav ul li  {
     display: inline-block;
     list-style-type: none;
-
+margin-bottom: 0;
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     -ms-transition: all 0.2s;
@@ -38,7 +38,7 @@ nav ul li  {
 }
 
 nav>ul>li>a>.caret {
-    border-top: 4px solid #aaa;
+    border-top: 4px solid darkslategray;
     border-right: 4px solid transparent;
     border-left: 4px solid transparent;
     content: "";
@@ -54,7 +54,7 @@ nav>ul>li>a>.caret {
 }
 
 nav>ul>li>a {
-    color: #aaa;
+    color: white;
     display: block;
     line-height: 56px;
     padding: 0 24px;
@@ -113,3 +113,5 @@ nav>ul>li>div ul>li>a {
 nav>ul>li>div ul>li:hover>a {
     background-color: rgba(255, 255, 255, 0.1);
 }
+
+/*Body*/
