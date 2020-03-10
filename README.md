@@ -5,6 +5,7 @@ This will also be able to help pick out meals for the week. Second functinality 
 # Functionality
 ### Resturants
 1. need to  add get 
+2. get food items
 
 
 # Things to Do
