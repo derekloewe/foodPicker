@@ -1,8 +1,5 @@
 #gitignore for Food Picker
 config.js
-<<<<<<< HEAD
-notes.txt
-=======
 notes.txt
 test.js
 
@@ -22,4 +19,3 @@ npm-debug.log
 
 *.txt
 *.xlsx
->>>>>>> 60b01faf5b6674da244a84fba658ac1e4dcdbe53
