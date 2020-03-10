@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/darklion/food.derekloewe.dev
+    - /bin/cp -r * $DEPLOYPATH
