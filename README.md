@@ -16,4 +16,3 @@ This will also be able to help pick out meals for the week. Second functinality 
 - [ ] Style
 - [ ] Test
 - [ ] Get List of Resturants
->>>>>>> 60b01faf5b6674da244a84fba658ac1e4dcdbe53
