@@ -1,31 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<<<<<<< HEAD
-=======
 
->>>>>>> 60b01faf5b6674da244a84fba658ac1e4dcdbe53
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Food Picker</title>
-<<<<<<< HEAD
-    <script type='text/javascript' src='config.js'></script>
-    <script type='text/javascript' src="food.js"></script>
-</head>
-<body>
-    <h1>Test</h1>
-    <div id="RestaurantResults"></div>
-
-    <div id="results"></div><button onclick="checkJNow()">Random</button>
-</body>
-=======
     <script src='src/config.js'></script>
     <script src="src/food.js"></script>
     <!-- Compiled and minified CSS -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.3.0/milligram.css"
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.3.0/milligram.css"
         integrity="sha256-7LuOHbsBImoaCHWzjqQDLeGK9kq/rZZqIr6Gtkz0WzI=" crossorigin="anonymous" />
-
     <!-- <link rel="stylesheet" type="text/css" href="css/bulma.css"> -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -50,41 +35,35 @@
         </ul>
     </nav>
     <div class="container">
-        <h1 class="title">Restaurant Picker</h1>
+        <h1 class="title">Meal Picker</h1>
         <div id="results">
             <div id="errorMessageBox"></div>
             <table class="table">
                 <thead>
                     <tr>
                         <td>Name</td>
-                        <td id="costFilter">Cost </td>
                         <td id="typeFilter">Type </td>
+                        <td id="sideFilter">Side </td>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td id="nameResult"> </td>
-                        <td id="costResult"> </td>
+                        <td id="foodResult"> </td>
                         <td id="typeResult"> </td>
+                        <td id="sideResult"> </td>
                     </tr>
                 </tbody>
             </table>
-            <!--Fix this, filting not correct-->
-            <button class="button" id="buttonRandom">Random</button>
-
+            <button class="button button-outline" id="buttonRandom">Random</button>
         </div>
-        <div id="results">
-            <table id="resultsList">
+        <table id="resultsList">
 
-            </table>
-        </div>
-    
-    <div id="listingTable"></div>
-    <a href="javascript:prevPage(dataR2)" id="btn_prev">Prev</a>
-    <a href="javascript:nextPage(dataR2)" id="btn_next">Next</a>
-    page: <span id="page"></span>
-</div>
+        </table>
+        <a href="javascript:prevPage(dataR)" id="btn_prev">Prev</a>
+        <a href="javascript:nextPage(dataR)" id="btn_next">Next</a>
+        page: <span id="page"></span>
+    </div>
+
 </body>
 
->>>>>>> 60b01faf5b6674da244a84fba658ac1e4dcdbe53
 </html>
