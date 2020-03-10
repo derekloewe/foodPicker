@@ -4,13 +4,13 @@ This will also be able to help pick out meals for the week. Second functinality 
 
 # Functionality
 ### Resturants
-1. need to get 
+1. need to  add get 
 
 
 # Things to Do
 
-- [ ] Flush out Functionality for Restaurants
-- [ ] Flush out functionality for homemade meals
+- [x] Flush out Functionality for Restaurants
+- [x] Flush out functionality for homemade meals
 - [ ] Style
 - [ ] Test
 - [ ] Get List of Resturants

@@ -200,58 +200,6 @@ function changePage(page, data) {
 /**
  * @todo make reusable
  */
-/* function buildResults(data, dataArray) {
-  //Check to make sure the data is coming across the same as the response
-  //console.log(data);
-  let table = document.createElement("table");
-  table.className = "table";
-  let thead = document.createElement("thead");
-  let tbody = document.createElement("tbody");
-
-  for (let i = 0; i < data.length; i++) {
-    let tr = document.createElement('tr');
-    for (let j = 0; j < data[i].length; j += data[i].length) {
-      let jcount = data[i].length;
-      let item = {};
-      //Back up just in case
-      // let resturant = {
-      //  name: data[i][j],
-      //  cost: data[i][j+1],
-      //  kname: 'test'
-      //}; 
-      //Create dynamic key value's
-      for (q = 0; q < jcount; q++) {
-        let kname = data[0][j + q];
-        item[kname] = data[i][j + q];
-        //console.log(item[kname] = data[i][j + q])
-        let td = document.createElement('td');
-        td.setAttribute("data-value", data[i][j + q]);
-        td.innerHTML = data[i][j + q];
-        tr.appendChild(td);
-      }
-      dataArray.push(item);
-    }
-
-    if (i == 0) {
-      thead.appendChild(tr);
-      table.appendChild(thead);
-    } else {
-      tbody.appendChild(tr);
-    }
-  }
-  table.appendChild(tbody);
-  document.getElementById("results").appendChild(table);
-
-} */
-
-
-/**
- * Build table with all of the data from google sheets.
- * @param {JSON} data  [JSON data from the response from Google Sheets]
- */
-/**
- * @todo make reusable
- */
 function buildList(data, dataArray) {
   //Check to make sure the data is coming across the same as the response
   //console.log(data);
