@@ -1,5 +1,4 @@
 # foodPicker
-<<<<<<< HEAD
 JS food picker utalizing google sheets as json
 =======
 Personal Project to help pick where to eat. With people having issues on where to eat this will help pick a location with in specified in a google sheet.
